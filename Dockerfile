@@ -5,8 +5,8 @@ LABEL \
     description="Versioned steps to produce a clinvar vcf for use in workflows"
 
 RUN apt-get update -y && apt-get install -y \
-    curl
-    libnss-sss
+    curl \
+    libnss-sss \
     python-pip
 
 RUN pip install --upgrade pip
