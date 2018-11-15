@@ -1,0 +1,14 @@
+##fileformat=VCFv4.1
+##fileDate=2018-11-7
+##source=ClinVar
+##reference=GRCh38
+##ID=<Description="ClinVar Variation ID">
+##INFO=<ID=CLINSIGN,Number=.,Type=String,Description="Clinical significance for this single variant">
+##INFO=<ID=PHENOTYPE,Number=.,Type=String,Description="Tag-value pairs of disease database name and identifier, e.g. OMIM:NNNNNN">
+##INFO=<ID=SCORE,Number=1,Type=Integer,Description="Numerical score based on the review status of this variant">
+##INFO=<ID=RCVACC,Number=.,Type=String,Description="List of rcv accessions that report this variant">
+##INFO=<ID=TESTEDINGTR,Number=1,Type=Character,Description="Whether or not there is a test specific to this variant registered in the NIH genetic testing registry">
+##INFO=<ID=PHENOTYPELIST,Number=.,Type=String,Description="List of names corresponding to the IDs in the PHENOTYPE field">
+##INFO=<ID=NUMSUBMIT,Number=1,Type=Integer,Description="Number of submitters describing this variant">
+##INFO=<ID=GUIDELINES,Number=.,Type=String,Description="ftp://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/README">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
